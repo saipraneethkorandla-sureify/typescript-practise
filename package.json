@@ -1,0 +1,26 @@
+{
+  "name": "typescript-practise",
+  "version": "1.0.0",
+  "description": "TypeScript Practise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saipraneethkorandla-sureify/typescript-practise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saipraneethkorandla-sureify/typescript-practise/issues"
+  },
+  "homepage": "https://github.com/saipraneethkorandla-sureify/typescript-practise#readme",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
