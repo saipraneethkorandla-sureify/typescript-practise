@@ -1,4 +1,4 @@
-import {addition, substraction, multiplication, division} from './src/Function';
+import {addition, substraction, multiplication, division} from './Function';
 
 console.log(addition(1,2))
 console.log(substraction(3,2))
