@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sample Application</title>
+</head>
+
+<script src="../dist/TwoAssign.js"> 
+</script>
+
+<body>
+    <div class="login" id="login" style="display: block;">
+        <h2>Login</h2>
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <input type="button" onclick="validateUserLogin()" value="Login">
+
+            <input type="button" onclick="changePage('register')" value="Register">
+        </div>
+    </div>
+
+    <div class="register" style="display: none;" id="register">
+        <h2>Register</h2>
+        <div>
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" required>
+
+            <label for="email-id">Email:</label>
+            <input type="email" id="emailid" name="emailid" required>
+
+            <label for="register_password">Password:</label>
+            <input type="text" id="register_password" name="register_password" required>
+
+            <input type="button" onclick="saveUser()" value="Register">
+        </div>
+    </div>
+
+
+    <div class="details" style="display: none;" id="details">
+        <h2>Your Details</h2>
+        <div>
+            <label for="details_fullname">Full Name:</label>
+            <p id="details_fullname"></p>
+        </div>
+    </div>
+
+</body>
+
+</html>
