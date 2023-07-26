@@ -1,7 +1,8 @@
 export interface User {
     fullname: string;
     email: string;
-    password: string
+    password: string;
+    user_status: string
 }
 
 export namespace details {
